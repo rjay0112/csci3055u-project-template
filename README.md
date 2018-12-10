@@ -35,30 +35,7 @@ Kotlin allows users to define objects and functions at the top level, taking awa
 
 Kotlin is an open source programming language, off of the baseline of the initial build by Jetbrains.
 
-## About the syntax
 
-> _give some code snippet of the language_
-
-*triple variable multiplication function* 
-```kotlin
-fun tripleMultiply(a: Int, b: Int, c: Int) {
-  println("multiplication of $a * $b * $c is ${a*b*c}")
-}
-
-val a=5
-val b=4
-val c=2
-tripleMultiply(a,b,c)
-//=>multiplication of 5 * 4 * 2 is 40
-```
-
-*Let form*
-
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
-```
 
 ## About the tools
 
