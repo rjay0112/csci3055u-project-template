@@ -5,8 +5,6 @@
 
 ## About the language
 
-> _Describe the language_
->
 > - History
 
 Kotlin was first released in 2011 by JetBrains, after a year of prior development, and was meant as a Java Virtual Machine(JVM) language.  The motivation for the creation of this language was that the creators felt that there was no other language that had the features they required besides scala, but they wanted something with a faster compile time similar to that of java.  Similar to how Java was named after an island, Kotlin was named after Kotlin Island, by St. Petersburg. 
@@ -16,6 +14,7 @@ The first officially stable release was Kotlin v1.0 on February 15, 2016, meanin
 
 The next version v1.2 was released on November 28, 2017 and the big feature added was the ability to share code between Java Virtual Machine, and Javascript platforms.  
 The most recent version v1.3 was released on October 29, 2018, and implemented [coroutines](https://en.wikipedia.org/wiki/Coroutine), for [asynchronous programming](https://visualstudiomagazine.com/articles/2011/03/24/wccsp_asynchronous-programming.aspx), meaning flow control can be passed back and forth between routines.
+
 
 > - Some interesting features
 
@@ -35,7 +34,9 @@ Kotlin allows users to define objects and functions at the top level, taking awa
 
 Kotlin is an open source programming language, off of the baseline of the initial build by Jetbrains.
 
+## About the syntax
 
+The syntax can be found in the [basic syntax](https://github.com/rjay0112/csci3055u-project-template/tree/master/basic-syntax) folder
 
 ## About the tools
 
@@ -43,8 +44,7 @@ Kotlin is an open source programming language, off of the baseline of the initia
 
 ## About the standard library
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
+The standard library examples can be found in the [standard-library](https://github.com/rjay0112/csci3055u-project-template/tree/master/standard-library) folder
 
 ## About open source library
 
