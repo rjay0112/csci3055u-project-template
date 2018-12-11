@@ -56,9 +56,25 @@ The standard library examples can be found in the [standard-library](https://git
 
 *Android*
 
+Kotlin has been widely used for the development of Android applications, including big companies like Pinterest and Evernote.  There is also a wide variety of open source libraries that can help in this development.
+
+https://github.com/metalabdesign/AsyncAwait  Used for writing asynchronous code for Android development
+
+https://github.com/TouK/bubble  Used to obtain screen orientation
+
+https://github.com/denisidoro/krouter  used for controlling and rerouting Android activity within the application
 
 *Data Science*
 
+There have been a wide variety of open source libraries added to Kotlin to aid in the development of using kotlin for data science.
+
+https://github.com/thomasnield/kotlin-statistics Used for advanced statistic functions like variance and standard deviation
+
+https://github.com/holgerbrandl/krangl Used for modifications of tabular data
+
+https://github.com/sekwiatkowski/Komputation Used for neural networks
+
+https://github.com/MarcinMoskala/KotlinDiscreteMathToolkit Used for discrete mathemtic functions including permutations and combinations
 
 # Analysis of the language
 
