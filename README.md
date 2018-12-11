@@ -40,7 +40,13 @@ The syntax can be found in the [basic syntax](https://github.com/rjay0112/csci30
 
 ## About the tools
 
-> _Describe the compiler or interpreter needed_.
+Kotlin has its own compiler *kotlinc*, and can ahve many different options for compiling, including key features such as *-d* which is for the output name and type.  *-include-runtime* makes the output file runnable and includes the runtime library for kotlin
+
+```kotlin
+$ kotlinc exampleProgram.kt -include-runtime -d exampleProgram.jar
+```
+
+Kotlin can be interpreted to both java to run on the JVM, as well as javascript.
 
 ## About the standard library
 
@@ -48,12 +54,24 @@ The standard library examples can be found in the [standard-library](https://git
 
 ## About open source library
 
-> _Describe at least one contribution by the open source
-community written in the language._
+*Android*
+
+
+*Data Science*
+
 
 # Analysis of the language
 
-> _Organize your report according to the project description
-document_.
+Kotlin is a largely object-oriented language, but can also be seen as a way to support functional programming.  Kotlin allows for a mixture of OOP and FP, and can be demonstrated by the availability to use features such as FP function types and lambdas, as well as higher-order functions.  It also does support the ability to do procedural programming as well.
+Furthermore, becauase Kotlin allows for access to java classes, and with this, we can use functionality such as [reflections](https://kotlinlang.org/docs/reference/reflection.html) to give a workaround for meta-programming, but does not currently support macros.
 
+Kotlin allows for symbols defined at higher scopes to be modified in lower scopes, but functions can also access variables and parameters that were defined in outer scopes, with a good example being list modifications, where the function calls outside of itself to the list.  
+Similar to the majority of other languages, Kotlin uses lexical scoping, as it is easier for humans to read as well as any analysis tools.
 
+A good example to see the constructs in place for functional programming can be seen in the [collections](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/index.html) part of the standard library.  By detault, values are immutable, and can be seen through the lists, sets and maps for example.  Kotlin is also very leniant and allows for all of these types to also have mutable versions, that can be made on the creation of the variable.
+Kotlin is statically typed, but because it can be interpreted into Javascript code, it allows for the usage of dynamic typing, but by doing so, makes it so that your kotlin code is no longer supported for JVM.
+
+Finally, we can talk about the strengths and weaknesses of kotlin.
+The strengths of the language are that it is very similar to java, making a switch over for companies and developers fairly simple, as well as being easy to maintain because of its support by a large number of IDE's including Intellij and android studio.  Furthermore, it is a clean and compact language, as well as giving different variable types like mutable and immutable, or var vs val to more clearly define what wee want to do with those types.  Kotlin also requires less code on average to do the same thing in java.
+
+The cons of kotlin are that there is a limited amount of resorces and people who may have already fixed the issue you may be having, as well as reportedly having a wide range of fluctuation in compilation time.  Furthermore, because of the smaller community, it can be harder to learn to program in, and there are also very few experts for the language.
