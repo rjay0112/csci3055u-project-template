@@ -112,3 +112,13 @@ if (grade in 0..100){
 }
 ```
 
+**it**
+
+Widely used for implicit naming of a single character where a lambda expression only has a single parameter.
+The parameter will be implicitly deckared with *it*
+
+```kotlin
+val listInts= listOf(50,60,70,20,30)
+println(listInts.filter{it>50})
+//=> [60,70]
+```
