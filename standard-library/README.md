@@ -158,3 +158,19 @@ listEx.dropWhile{ it < 4}   //=>[4,5,6,7,8,9]
 //conditional drop last
 listEx.dropLastWhile {it > 6} //=>[1,2,3,4,5,6]
 ```
+
+### Lambda Expressions
+
+There are many different types of expressions that can be used on collections to modify to the desired results with ease.  These include *filter* *sortedBy* *map* *forEach* 
+
+```kotlin
+val veggies = listOf("celery","carrot","peas","eggplant")
+veggies.filter{it.startsWith("c")}          //=> ["celery","carrot"] 
+veggies.sortedBy{it}                        //=>["carrot","celery","eggplant","peas"]
+veggies.map{it.toUpperCase()}               //=>["CELERY", "CARROT", "PEAS", "EGGPLANT"]
+veggies.forEach{println("A veggie is $it)}
+//=> "A veggie is celery"
+//      ....
+//=> "A veggie is eggplant"
+
+```
